@@ -1,6 +1,6 @@
-name: ""
-displayName: ""
-author: ""
-description: ""
-version: 0.0
-minGameVersion: 104
+name: "specialised-units-revamped"
+displayName: "Specialised Units Revamped"
+author: "GameStuff"
+description: "The V6 mod revamped and ported to V7"
+version: 0.1
+minGameVersion: 136
