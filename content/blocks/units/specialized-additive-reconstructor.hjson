@@ -21,7 +21,7 @@ consumes: {
 }
 
 upgrades: [
-  [mono, duo]
+  [mono, double]
 //  [flare, flash]
 //  [dagger, glaive]
 ]
