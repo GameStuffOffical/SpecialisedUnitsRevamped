@@ -1,0 +1,30 @@
+name: Specialized Additive Reconstuctor
+type: Reconstructor
+
+requirements: [
+  copper/ 200
+  lead/120
+  silicon/90
+]
+
+constructTime: 700
+  
+size: 3
+consumes: {
+  power: 3
+  items: {
+    items: [
+      silicon/40
+      graphite/40
+    ]
+  }
+}
+
+upgrades: [
+  [mono, duo]
+  [flare, flash]
+  [dagger, glaive]
+]
+
+category: units
+research: additive-reconstructor
