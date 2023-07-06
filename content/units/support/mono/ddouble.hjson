@@ -1,4 +1,4 @@
-name: duo
+name: Double
 type: flying
 flying: true
 controller: minerAI
