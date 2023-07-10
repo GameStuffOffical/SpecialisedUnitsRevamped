@@ -16,17 +16,18 @@ research: mono
 engines: [
   {
     //the x coordinate this engine is placed at
-    x: -10
+   // x: -10
     //the y coordinate this engine is placed at
-    y: -20
+    //y: -20
     //the radius aka the size of the engine
-    radius: 5
+    //radius: 5
     //the rotation of the engine in degrees
-    rotation: 20 
+    //rotation: 20 
   }
   {
-    x: 5
-    y: -10
+    x: 6
+    mirrored: true
+    y: -2
     radius: 3
     rotation: 5
   }
