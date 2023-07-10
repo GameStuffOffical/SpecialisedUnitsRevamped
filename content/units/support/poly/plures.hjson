@@ -8,7 +8,22 @@ rotateSpeed: 8
 accel:0.3
 range:190
 drag:0.12
-engineOffset: 1
-engineSize: 2
+engineOffset: -7
+engineSize: 5
 
 research: poly
+
+engines: [
+  {
+    x: 8
+    y: -6
+    radius: 3
+    rotation: 5
+  }
+  {
+    x: -8
+    y: -6
+    radius: 3
+    rotation: 5
+  }
+]
