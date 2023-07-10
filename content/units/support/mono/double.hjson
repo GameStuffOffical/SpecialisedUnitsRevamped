@@ -6,7 +6,6 @@ hitSize: 15
 speed: 4
 rotateSpeed: 4
 accel: 0.3
-engines
 mineTier: 3
 mineSpeed: 2.5
 drag:0.12
