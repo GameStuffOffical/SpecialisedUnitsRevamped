@@ -10,7 +10,7 @@ mineTier: 3
 mineSpeed: 2.5
 drag:0.12
 engineOffset: 10
-engineSize: 2
+engineSize: 3
 research: mono
 //Engines
 engines: [
@@ -25,9 +25,9 @@ engines: [
     rotation: 20 
   }
   {
-    x: -10
-    y: -20
-    radius: 5
-    rotation: 20 
+    x: 5
+    y: -10
+    radius: 3
+    rotation: 5
   }
 ]
