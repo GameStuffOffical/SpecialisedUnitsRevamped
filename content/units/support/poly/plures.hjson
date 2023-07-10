@@ -1,0 +1,14 @@
+name:Plures
+type: flying
+controller: BuilderAI
+buildSpeed: 100
+hitSize: 30
+speed: 4
+rotateSpeed: 8
+accel:0.3
+range:190
+drag:0.12
+engineOffset: 1
+engineSize: 2
+
+research: poly
