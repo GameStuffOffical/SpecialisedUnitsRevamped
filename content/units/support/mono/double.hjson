@@ -4,13 +4,14 @@ flying: true
 defaultController: minerAI
 hitSize: 15
 speed: 4
-rotateSpeed: 4
-accel: 0.3
+rotateSpeed: 8
+accel: 0.1
 mineTier: 3
 mineSpeed: 2.5
-drag:0.12
+drag:0.05
 engineOffset: 10
 engineSize: 3
+trailLength: 2
 research: mono
 //Engines
 engines: [
@@ -26,8 +27,13 @@ engines: [
   }
   {
     x: 6
-    mirrored: true
-    y: -2
+    y: -3
+    radius: 3
+    rotation: 5
+  }
+  {
+    x: -6
+    y: -3
     radius: 3
     rotation: 5
   }
