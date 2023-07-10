@@ -1,6 +1,6 @@
 name:Plures
 type: flying
-controller: BuilderAI
+defaultController: BuilderAI
 buildSpeed: 100
 hitSize: 30
 speed: 4
