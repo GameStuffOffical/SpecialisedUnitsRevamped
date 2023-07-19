@@ -64,7 +64,7 @@ weapons: [
       lifetime: 50
       keepVelocity: false
       shootEffect: shootHeal
-      smokeEffect hitLaser
+      smokeEffect: hitLaser
       damage: 20
       pierceArmor: false
       width: 8
