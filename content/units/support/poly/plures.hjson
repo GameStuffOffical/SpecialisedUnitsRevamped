@@ -57,7 +57,7 @@ weapons: [
     bullet: {
       type: MissileBulletType
       hitEffect: hitLaser
-      speed
+      speed: 12
       despawnEffect: hitLaser
       weaveMag: 4
       weaveScale: 4
