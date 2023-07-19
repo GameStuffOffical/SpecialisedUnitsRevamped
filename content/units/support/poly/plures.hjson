@@ -50,7 +50,6 @@ weapons: [
     y: -5
     recoil: 2
     reload: 30
-    shots: 20
     shootSound: missile
     inaccuracy: 15
     bullet: {
@@ -58,7 +57,7 @@ weapons: [
       hitEffect: hitLaser
       speed: 12
       despawnEffect: hitLaser
-      collideTeam: true
+      collidesTeam: true
       weaveMag: 4
       weaveScale: 4
       lifetime: 50
