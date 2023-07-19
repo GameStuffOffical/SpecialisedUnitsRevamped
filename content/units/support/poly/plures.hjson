@@ -45,7 +45,7 @@ engines: [
 //                   trailColor = Pal.heal;
 weapons: [
 {
-    name: plures-rocket
+    name: poly-weapon
     top: false
     mirror: true
     x: -10
@@ -59,6 +59,11 @@ weapons: [
     shake: 0
     bullet: {
       type: RocketBulletType
+      frontColor: white
+      backColor: heal
+      trailColor: heal
+      hitEffect: hitLaser
+      despawnEffect: hitLaser
       weaveMag: 4
       weaveScale: 4
       lifetime: 50
@@ -71,7 +76,6 @@ weapons: [
       height: 8
       speed: 16
       range: 200
-      lifetime: 12.5
     }
   }
 ]
