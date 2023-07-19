@@ -48,7 +48,7 @@ weapons: [
     name: plures-rocket
     top: false
     mirror: true
-    x: 13
+    x: -10
     y: -5
     recoil: 2
     reload: 5
