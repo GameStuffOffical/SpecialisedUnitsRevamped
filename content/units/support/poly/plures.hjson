@@ -9,23 +9,20 @@ rotateSpeed: 8
 accel:0.3
 range:190
 drag:0.12
-engineOffset: -8
-engineSize: 9
+engineSize: 0
 
 research: poly
 
 engines: [
   {
-    x: 8
+    x: 6
     y: -6
     radius: 3
-    rotation: 5
   }
   {
-    x: -8
+    x: -6
     y: -6
     radius: 3
-    rotation: 5
   }
 ]
 
@@ -52,40 +49,15 @@ weapons: [
     x: -10
     y: -5
     recoil: 2
+    speed: 12
     reload: 30
+    shots: 20
     shootSound: missile
     inaccuracy: 15
     bullet: {
       type: MissileBulletType
       hitEffect: hitLaser
-      despawnEffect: hitLaser
-      weaveMag: 4
-      weaveScale: 4
-      lifetime: 50
-      keepVelocity: false
-      shootEffect: shootHeal
-      smokeEffect: hitLaser
-      damage: 20
-      pierceArmor: false
-      width: 8
-      height: 8
-      range: 200
-      healPercent: 5.5
-    }
-  }
-{
-    name: poly-weapon
-    top: true
-    mirror: true
-    x: -5
-    y: -2.5
-    recoil: 2
-    reload: 30
-    shootSound: missile
-    inaccuracy: 15
-    bullet: {
-      type: MissileBulletType
-      hitEffect: hitLaser
+      speed
       despawnEffect: hitLaser
       weaveMag: 4
       weaveScale: 4
