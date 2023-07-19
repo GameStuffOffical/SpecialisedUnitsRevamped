@@ -27,3 +27,27 @@ engines: [
     rotation: 5
   }
 ]
+weapons [
+{
+    name: plures-rocket
+    rotate: true
+    mirror: true
+    x: 13
+    y: -5
+    recoil: 1
+    reload: 5
+    shootX: 1
+    shootSound: none
+    shake: 0
+    bullet: {
+      type: "RocketBulletType"
+      damage: 20
+      pierceArmor: false
+      width: 8
+      height: 8
+      speed: 16
+      range: 200
+      lifetime: 12.5
+    }
+  }
+]
