@@ -27,20 +27,44 @@ engines: [
     rotation: 5
   }
 ]
+
+//                   homingPower = 0.08f;
+//                    weaveMag = 4;
+//                    weaveScale = 4;
+//                    lifetime = 50f;
+//                    keepVelocity = false;
+//                    shootEffect = Fx.shootHeal;
+//                    smokeEffect = Fx.hitLaser;
+//                    hitEffect = despawnEffect = Fx.hitLaser;
+//                    frontColor = Color.white;
+//                    hitSound = Sounds.none;
+//
+//                    healPercent = 5.5f;
+//                    collidesTeam = true;
+//                    backColor = Pal.heal;
+//                   trailColor = Pal.heal;
 weapons: [
 {
     name: plures-rocket
-    rotate: true
+    top: false
     mirror: true
     x: 13
     y: -5
-    recoil: 1
+    recoil: 2
     reload: 5
     shootX: 1
-    shootSound: none
+    shootSound: missile
+    inaccuracy: 15
+    velocutyRnd: 0.5
     shake: 0
     bullet: {
-      type: "RocketBulletType"
+      type: RocketBulletType
+      weaveMag: 4
+      weaveScale: 4
+      lifetime: 50
+      keepVelocity: false
+      shootEffect: shootHeal
+      smokeEffect hitLaser
       damage: 20
       pierceArmor: false
       width: 8
