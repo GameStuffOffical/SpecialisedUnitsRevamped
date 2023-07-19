@@ -27,7 +27,7 @@ engines: [
     rotation: 5
   }
 ]
-weapons [
+weapons: [
 {
     name: plures-rocket
     rotate: true
