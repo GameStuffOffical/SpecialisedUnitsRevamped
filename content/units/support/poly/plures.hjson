@@ -59,9 +59,6 @@ weapons: [
     shake: 0
     bullet: {
       type: RocketBulletType
-      frontColor: white
-      backColor: heal
-      trailColor: heal
       hitEffect: hitLaser
       despawnEffect: hitLaser
       weaveMag: 4
