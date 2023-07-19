@@ -49,7 +49,7 @@ weapons: [
     x: -10
     y: -5
     recoil: 2
-    reload: 0
+    reload: 25
     shootSound: missile
     inaccuracy: 15
     bullet: {
