@@ -1,15 +1,16 @@
 name:Plures
 type: flying
+flying:true
 defaultController: BuilderAI
 buildSpeed: 100
 hitSize: 30
-speed: 4
+speed: 3
 rotateSpeed: 8
 accel:0.3
 range:190
 drag:0.12
-engineOffset: -7
-engineSize: 5
+engineOffset: -8
+engineSize: 9
 
 research: poly
 
@@ -46,19 +47,16 @@ engines: [
 weapons: [
 {
     name: poly-weapon
-    top: false
+    top: true
     mirror: true
     x: -10
     y: -5
     recoil: 2
-    reload: 5
-    shootX: 1
+    reload: 30
     shootSound: missile
     inaccuracy: 15
-    velocutyRnd: 0.5
-    shake: 0
     bullet: {
-      type: RocketBulletType
+      type: MissileBulletType
       hitEffect: hitLaser
       despawnEffect: hitLaser
       weaveMag: 4
@@ -71,8 +69,36 @@ weapons: [
       pierceArmor: false
       width: 8
       height: 8
-      speed: 16
       range: 200
+      healPercent: 5.5
+    }
+  }
+{
+    name: poly-weapon
+    top: true
+    mirror: true
+    x: -5
+    y: -2.5
+    recoil: 2
+    reload: 30
+    shootSound: missile
+    inaccuracy: 15
+    bullet: {
+      type: MissileBulletType
+      hitEffect: hitLaser
+      despawnEffect: hitLaser
+      weaveMag: 4
+      weaveScale: 4
+      lifetime: 50
+      keepVelocity: false
+      shootEffect: shootHeal
+      smokeEffect: hitLaser
+      damage: 20
+      pierceArmor: false
+      width: 8
+      height: 8
+      range: 200
+      healPercent: 5.5
     }
   }
 ]
