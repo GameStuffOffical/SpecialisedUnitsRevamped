@@ -1,5 +1,6 @@
 name:Plures
 type: flying
+health: 400
 flying:true
 defaultController: BuilderAI
 buildSpeed: 100
