@@ -72,9 +72,9 @@ weapons: [
       speed: 4
       range: 200
       healPercent: 5.5
-      frontColor: white
-      backColor: heal
-      trailColor: heal
+//      frontColor: white
+//      backColor: heal
+//      trailColor: heal
     }
   }
 ]
