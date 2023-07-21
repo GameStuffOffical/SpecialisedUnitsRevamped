@@ -73,8 +73,8 @@ weapons: [
       range: 200
       healPercent: 5.5
       frontColor: white
-      backColor: Pal.heal
-      trailColor: Pal.heal
+      backColor: heal
+      trailColor: heal
     }
   }
 ]
