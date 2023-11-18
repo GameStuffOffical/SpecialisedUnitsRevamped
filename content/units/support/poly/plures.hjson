@@ -1,10 +1,11 @@
 name:Plures
+description:Upgraded Poly, builds fast, thats pretty much it.
 type: flying
 health: 400
 flying:true
 defaultController: BuilderAI
-buildSpeed: 100
-hitSize: 30
+buildSpeed: 1.5
+hitSize: 15
 speed: 3
 rotateSpeed: 8
 accel:0.3
@@ -18,12 +19,14 @@ engines: [
   {
     x: 6
     y: -8
-    radius: 3
+    radius: 2.5
+    rotation: 90
   }
   {
     x: -6
     y: -8
-    radius: 3
+    radius: 2.5
+    rotation: 90
   }
 ]
 
@@ -47,7 +50,7 @@ weapons: [
     name: poly-weapon
     top: true
     mirror: true
-    x: -10
+    x: -7
     y: -5
     recoil: 2
     reload: 25
