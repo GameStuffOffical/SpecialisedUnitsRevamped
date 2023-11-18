@@ -1,3 +1,45 @@
-type: mech
-research: dagger
 name: Glaive
+speed: .5
+type: mech
+health: 500
+rotateSpeed: 3
+range: 140
+
+weapons: [
+    {
+    name: larger-weapon
+    reload: 15
+    top: false
+    x: 10
+    y: -1
+    inaccuracy: 2
+    shots: 2
+      bullet: {
+        width: 6
+        height: 7
+        type: BasicBulletType
+        speed: 5
+        damage: 9
+      }
+  }
+    {
+    name: big-cannon
+    mirror: false
+    reload: 50
+    top: false
+    x: 0
+    y: -7
+    rotate: true
+    alternate: true
+    inaccuracy: 0
+    shots: 5
+      bullet: {
+        width: 8
+        height: 10
+        type: BasicBulletType
+        speed: 6
+        damage: 27
+      }
+  }
+]
+research: dagger
