@@ -3,6 +3,7 @@ speed: .5
 type: mech
 health: 500
 rotateSpeed: 3
+hitsize: 15
 range: 140
 
 weapons: [
